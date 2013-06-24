@@ -1,0 +1,109 @@
+/* change or overwrite if necessary */
+#tourBodyCover {position:absolute;top:0;left:0;width:100%;height:100%;z-index:10000} /* where */
+#tourBodyCover {background:#000;-moz-opacity:0.25;filter:alpha(opacity=25);opacity:0.25;-khtml-opacity:0.25} /* style */
+
+#tourControl {position:absolute;top:30px;right:30px;z-index:11000;text-align:left} /* where */
+#tourControl {font-family:Arial,sans-serif;font-size:16px;line-height:1.2em;max-width:350px;} /* style */
+#tourControl table {width:100%}
+
+#tourControl p.title {font-size:14px;line-height:1.4em;font-weight:bold;text-align: left;}
+
+#tourControlNavi td {padding:2px 10px}
+#tourControlNavi td {font-size:1em;font-weight:bold}
+
+#tourControlBody td {padding:10px;border-top:1px solid transparent}
+
+#tourControlInfo td {display:none;padding:5px 10px;font-size:0.9em;color:#666;border-top:1px solid #fff}
+#tourControlInfo a {color:#ccc;text-decoration:underline}
+
+#tourPrev,
+#tourNext,
+#tourClose {display:inline-block;line-height:11px;padding:0;text-decoration:none;border:1px solid transparent}
+
+#tourClose {color:#990}
+
+#tourPrev {margin-right:5px;margin-bottom:-3px;width:6px;height:11px;color:transparent}
+#tourNext {margin-left:5px;margin-bottom:-3px;width:6px;height:11px;color:transparent}
+
+#tourPrev.disabled,
+#tourNext.disabled {display:none;cursor:default}
+
+#tourCloseCell {text-align:right}
+#tourCount {margin:0px;font-weight:normal;font-size:11px;font-weight:normal}
+
+.tourCover {position:fixed;top:0;bottom:0;left:0;right:0;width:auto;height:auto;z-index:10000} /* where */
+.tourCover {background:#000;-moz-opacity:0.5;filter:alpha(opacity=50);opacity:0.5;-khtml-opacity:0.5} /* style */
+#tourArrow {width:30px;height:30px;z-index:11001}
+#tourExposeCover {z-index:10000;-moz-opacity:0;filter:alpha(opacity=0);opacity:0;-khtml-opacity:0;background:blue}
+
+/**
+ * color schemes 
+ */
+ 
+/* yellow */
+#tourControl.yellow {background:#fffe5d;color:#000}
+#tourControl.yellow #tourClose,
+#tourControl.yellow #tourCount {color:#990}
+#tourControl.yellow #tourClose:hover {color:#000}
+#tourControl.yellow #tourControlBody td {border-color:#dd0}
+#tourControl.yellow #tourPrev {background:url(prev.yellow.png) no-repeat 0 0;}
+#tourControl.yellow #tourNext {background:url(next.yellow.png) no-repeat 0 0;}
+
+
+/* black */
+#tourControl.black {background:#000;color:#fff}
+#tourControl.black #tourClose,
+#tourControl.black #tourCount {color:#999}
+#tourControl.black #tourClose:hover {color:#fff}
+#tourControl.black #tourControlBody td {border-color:#999}
+#tourControl.black #tourPrev {background:url(prev.black.png) no-repeat 0 0;}
+#tourControl.black #tourNext {background:url(next.black.png) no-repeat 0 0;}
+
+
+/* red */
+#tourControl.red {background:#f00;color:#fff}
+#tourControl.red #tourClose,
+#tourControl.red #tourCount {color:#f99}
+#tourControl.red #tourClose:hover {color:#fff}
+#tourControl.red #tourControlBody td {border-color:#f99}
+#tourControl.red #tourPrev {background:url(prev.red.png) no-repeat 0 0;}
+#tourControl.red #tourNext {background:url(next.red.png) no-repeat 0 0;}
+
+
+/* blue */
+#tourjControl.blue {background:#00f;color:#fff}
+#tourjControl.blue #tourClose,
+#tourjControl.blue #tourCount {color:#99f}
+#tourjControl.blue #tourClose:hover {color:#fff}
+#tourjControl.blue #tourControlBody td {border-color:#99f}
+#tourjControl.blue #tourPrev {background:url(prev.blue.png) no-repeat 0 0;}
+#tourjControl.blue #tourNext {background:url(next.blue.png) no-repeat 0 0;}
+
+
+/* green */
+#tourControl.green {background:#0f0;color:#060}
+#tourControl.green #tourClose,
+#tourControl.green #tourCount {color:#090}
+#tourControl.green #tourClose:hover {color:#000}
+#tourControl.green #tourControlBody td {border-color:#cfc}
+#tourControl.green #tourPrev {background:url(prev.green.png) no-repeat 0 0;}
+#tourControl.green #tourNext {background:url(next.green.png) no-repeat 0 0;}
+
+/* white */
+#tourControl.white {background:#fff;color:#000}
+#tourControl.white #tourClose,
+#tourControl.white #tourCount {color:#666}
+#tourControl.white #tourClose:hover {color:#000}
+#tourControl.white #tourControlBody td {border-color:#000}
+#tourControl.white #tourPrev {background:url(prev.white.png) no-repeat 0 0;}
+#tourControl.white #tourNext {background:url(next.white.png) no-repeat 0 0;}
+
+/* pink */
+#tourControl.pink {background:#f09;color:#fff}
+#tourControl.pink #tourClose,
+#tourControl.pink #tourCount {color:#FFBFE5}
+#tourControl.pink #tourClose:hover {color:#fff}
+#tourControl.pink #tourControlBody td {border-color:#FFBFE5}
+#tourControl.pink #tourPrev {background:url(prev.pink.png) no-repeat 0 0;}
+#tourControl.pink #tourNext {background:url(next.pink.png) no-repeat 0 0;}
+

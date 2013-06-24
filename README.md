@@ -12,6 +12,6 @@ Sample of usage you can see [here](http://www.menulet.me "menulet").
 
 License
 -------------
-Copyright 2011-2013 Stanislav Parfeniuk. Licensed under the MIT License
+Copyright 2011-2013 [Stanislav Parfeniuk](http://www.linkedin.com/in/stanislavparfeniuk). Licensed under the MIT License
 
 I was inspired by some old tour(can't remember name of it)

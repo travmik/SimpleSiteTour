@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./simpletour.js"></script>
+        <script type="text/javascript" src="./jquery.min.js"></script>
+    </head>
+    <body onload="onLoad();">
+        <table style="margin-left: auto;margin-right: auto;">
+            <tr style="height:20px;background-color:#474849">
+                <td id="td11" style="width:40px;"/>
+                <td id="td12" style="width:500px;"/>
+                <td id="td13" style="width:300px;"/>
+            </tr>
+
+            <tr style="height:600px;">
+                <td id="td21" style="background-color:#28A4DB"/>
+                <td id="td22" style="background-color:#B9B9B9"/>
+                <td id="td23" style="background-color:#28A4DB"/>
+            </tr>
+             <tr style="height:20px; background-color:#808080">
+                <td id="td31"/>
+                <td id="td32"/>
+                <td id="td33"/>
+            </tr>
+        </table>
+
+        <div class="tourDef" id="defaultTour" style="display: none">
+            <div>
+                <div title="id:'td12',padding:15,trbl:'bcc'">
+                    <p class="title">Welcome</p>
+                    Welcome to the tour.
+                </div>
+                <div title="id:'td13',padding:15,trbl:'bll'">
+                    <p class="title">Types</p>
+                    There are several types of tooltips.
+                </div>
+                <div title="id:'td23',padding:0,trbl:'lbc'">
+                    <p class="title">Test2.</p>
+                    Test2
+                </div>
+                <div title="id:'td22',padding:0,trbl:'lml'">
+                    <p class="title">Test3.</p>
+                    Test3
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            main.BASE_URL         = './';
+            main.onCloseClickStay = false;
+            main.colorScheme      = 'yellow';
+            function onLoad(){
+            
+                main.onCloseClickStay = true;
+                main.tourId = 'defaultTour';
+                main.open();
+            };  
+         </script>
+    </body>
+</html>
